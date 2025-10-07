@@ -488,7 +488,7 @@ footer{
 @media all and (max-width: 450px) {
 
 body {
-  min-width: 430px;
+  min-width: 375px;
   padding: 0;
   align-items: center;
 }
@@ -548,8 +548,8 @@ header {
  }
 
  .aboutus-text-container {
-  max-width: 390px;
-  min-width: 390px;
+  max-width: 35px;
+  min-width: 350px;
   max-height: 250px;
   flex-shrink: 0;
   overflow: scroll;
@@ -557,7 +557,7 @@ header {
 
 
  #about-us {
-  width: 430px;
+  width: 370px;
   min-height: 450px;
   flex-direction: column-reverse;
   justify-content: center;
@@ -571,8 +571,8 @@ header {
  }
 
  .employe-picture-container img{
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   margin: 0;
   object-fit: contain;
   display: flex;
@@ -582,11 +582,10 @@ header {
 
 .testimonial-container{
     width: 300px;
-
 }
 
 .testimonial-container img{
-  width: 100px;
+  width: 120px;
   height: auto;
   object-fit: fill;
 }
@@ -603,22 +602,17 @@ header {
   margin: 0;
 }
 
-
-.contact-text-container {
-  max-width: 390px;
-  text-align: center;
-}
-
 .contact-text-container p{
   display: none;
 }
 
 .contact-text-container {
-  max-width: 390px;
+  max-width: 350px;
   min-width: 300px;
   height: auto;
   padding: 20px;
     margin-top: 0;
+    text-align: center;
 }
 
 footer h1{
