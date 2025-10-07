@@ -515,7 +515,7 @@ header {
 
 .nav-bar {
   width: 300px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-bar a{
