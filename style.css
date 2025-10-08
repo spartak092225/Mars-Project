@@ -201,7 +201,7 @@ header label {
 .testimonials-track {
   display: flex;
   gap: 60px;
-  animation: scroll 60s ease-in-out infinite alternate;
+  animation: scroll 40s ease-in-out infinite alternate;
 }
 
 @keyframes scroll {
