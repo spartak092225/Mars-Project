@@ -163,7 +163,6 @@ header label {
 
 .aboutus-text-container p {
   font-family: "Electrolize", sans-serif;
-  font-size: 1.5rem;
 }
 
 .employe-picture-container {
@@ -202,7 +201,7 @@ header label {
 .testimonials-track {
   display: flex;
   gap: 60px;
-  animation: scroll 60s linear infinite alternate;
+  animation: scroll 60s ease-in-out infinite alternate;
 }
 
 @keyframes scroll {
@@ -356,6 +355,8 @@ footer {
 
 /* MEDIA QUERIES 1300PX */
 @media all and (max-width: 1300px) {
+
+  /* TYPOGRAPHY */
   h1 {
     font-family: "Audiowide", sans-serif;
     font-size: 3rem;
@@ -367,9 +368,13 @@ footer {
     margin-top: 30px;
   }
 
+  /* HEADER */
+
   .nav-bar a {
     font-size: 2rem;
   }
+
+  /* HOME */
 
   .home-text-container {
     width: 600px;
@@ -379,6 +384,8 @@ footer {
     border-top-right-radius: 40px;
     box-shadow: 2px 2px 6px inset white;
   }
+
+  /* ABOUT US */
 
   #about-us {
     display: flex;
@@ -409,6 +416,8 @@ footer {
     object-fit: contain;
   }
 
+  /* TESTIMONIALS */
+
   .testimonial-container {
     width: 400px;
   }
@@ -418,6 +427,8 @@ footer {
     height: auto;
     object-fit: fill;
   }
+
+  /* CONTACT */
 
   #contact {
     display: flex;
@@ -475,6 +486,8 @@ footer {
     box-shadow: 2px 2px 6px inset white;
   }
 
+  /* FOOTER */
+
   footer {
     height: 100px;
     font-size: 2rem;
@@ -489,6 +502,8 @@ footer {
     align-items: center;
   }
 
+  /* TYPOGRAPHY */
+
   h1 {
     font-family: "Audiowide", sans-serif;
     font-size: 1.5rem;
@@ -499,6 +514,8 @@ footer {
     font-size: 1rem;
     margin-top: 30px;
   }
+
+  /* HEADER */
 
   header {
     max-width: 410px;
@@ -519,6 +536,8 @@ footer {
     font-size: 1rem;
   }
 
+  /* HOME */
+
   #home {
     display: flex;
     flex-direction: column;
@@ -532,7 +551,7 @@ footer {
     right: 0;
     scale: 0.4;
     justify-self: flex-end;
-    animation: spin 450s infinite alternate;
+    animation: spin 400s infinite alternate;
     z-index: -1;
     translate: 100px -100px;
   }
@@ -545,6 +564,8 @@ footer {
     align-self: flex-start;
     translate: 0 20px;
   }
+
+  /* ABOUT US */
 
   #about-us {
     display: flex;
@@ -580,15 +601,27 @@ footer {
     align-items: center;
   }
 
+  /* TESTIMONIALS */
+
+  .testimonials-track {
+    animation: scroll 20s ease-in-out infinite alternate;
+  }
+
   .testimonial-container {
-    width: 300px;
+    width: 350px;
   }
 
   .testimonial-container img {
     width: 120px;
-    height: auto;
     object-fit: fill;
   }
+
+  .testimonial-container img[src="images/transparent chewbakka.png"],
+  .testimonial-container img[src="images/transparent oompa loompa.png"] {
+    width: 155px;
+  }
+
+  /* CONTACT */
 
   #contact {
     display: flex;
@@ -615,6 +648,8 @@ footer {
   .contact-text-container p {
     display: none;
   }
+
+  /* FOOTER */
 
   footer h1 {
     align-self: center;
