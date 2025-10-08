@@ -4,7 +4,14 @@ Mock turistnettside for planeten Mars
 🔗 https://spartak092225.github.io/Mars-Project/
 
 
+👥 Teamet bak prosjektet:
 
+Nora - Bilder, bakgrunn og illustrasjoner
+Sarah - Bilder, bakgrunn og illustrasjoner
+Mohamed - Figma-design, HTML-struktur
+Spartak - Figma-design, prosjektstruktur, GitHub-håndtering
+
+Alle bidro til testing, finpuss og strukturering av prosjektet før levering.
 
 
 🌌 Om prosjektet
@@ -86,19 +93,6 @@ Git & GitHub – samarbeid og versjonskontroll
 
 HTML-strukturen ble bygget først, deretter ble CSS lagt til for å skape liv og atmosfære.
 
-
-
-
-👥 Teamet bak prosjektet:
-
-Nora - Bilder, bakgrunn og illustrasjoner
-Sarah - Bilder, bakgrunn og illustrasjoner
-Mohamed - Figma-design, HTML-struktur
-Spartak - Figma-design, prosjektstruktur, GitHub-håndtering
-
-Alle bidro til testing, finpuss og strukturering av prosjektet før levering.
-
-Alle bidro til testing, finpuss og strukturering av prosjektet før levering.
 
 ⚙️ Hvordan kjøre prosjektet
 
