@@ -5,7 +5,6 @@ Mock turistnettside for planeten Mars
 
 
 👥 Teamet bak prosjektet:
-
 Nora - Bilder, bakgrunn og illustrasjoner
 Sarah - Bilder, bakgrunn og illustrasjoner
 Mohamed - Figma-design, HTML-struktur
