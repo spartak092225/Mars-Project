@@ -89,12 +89,14 @@ HTML-strukturen ble bygget først, deretter ble CSS lagt til for å skape liv og
 
 
 
-👥 Teamet bak prosjektet
-Navn	Rolle
-Nora	Bilder, bakgrunn og illustrasjoner
-Sarah	Bilder, bakgrunn og illustrasjoner
-Mohamed	Figma-design, HTML-struktur
-Spartak	Figma-design, prosjektstruktur, GitHub-håndtering
+👥 Teamet bak prosjektet:
+
+Nora - Bilder, bakgrunn og illustrasjoner
+Sarah - Bilder, bakgrunn og illustrasjoner
+Mohamed - Figma-design, HTML-struktur
+Spartak - Figma-design, prosjektstruktur, GitHub-håndtering
+
+Alle bidro til testing, finpuss og strukturering av prosjektet før levering.
 
 Alle bidro til testing, finpuss og strukturering av prosjektet før levering.
 
