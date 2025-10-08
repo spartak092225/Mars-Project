@@ -10,9 +10,11 @@
 html {
   scroll-behavior: smooth; 
   overflow-x: hidden;
+  
 }
 
 body {
+  cursor: url(cursor.png), auto;
   width: 100%;
   min-width: 1100px;
   min-height: 100vh;
@@ -116,6 +118,7 @@ header label {
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
   box-shadow: 2px 2px 6px inset white;
+  translate: 0 -80px;
 }
 .mars-image {
   min-width: 60%;
@@ -545,6 +548,7 @@ header {
   overflow: scroll;
   align-self: flex-start;
   margin-left: 15px;
+  translate: 0 20px;
  }
 
  .aboutus-text-container {
@@ -600,6 +604,7 @@ header {
 
 #contact form{
   margin: 0;
+  gap: 20px;
 }
 
 .contact-text-container p{
@@ -617,6 +622,5 @@ header {
 
 footer h1{
   align-self: center;
-  padding-bottom: 30px;
 }
 }
